@@ -1,0 +1,104 @@
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: #343434;
+    margin-top: 200px;
+ }
+ .form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: #04006a;
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+    margin-bottom: 300px;
+ }
+ .form:hover{
+    transform: scale(1.05);
+    border: 1px solid black;
+ }
+ #heading{
+    text-align: center;
+    margin: 2em;
+    color: rgb(250, 255, 255);
+    font-size: 1.2em;
+    text-shadow: 1px 1px blanchedalmond;
+ }
+ .field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: #626067;
+  background-color: #333;
+  box-shadow: inset 2px 5px 10px rgb(91, 72, 183);
+ }
+ .input-field{
+   text-align: center;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: rgb(255, 255, 255);
+ }
+ .form.btn{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 2.5em;
+ }
+ .btn-1{
+    padding: 0.5em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+    border-radius: 5px;
+    margin-right: 0.5em;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #332f60;
+    color: aliceblue;
+ }
+ .btn-1:hover{
+    background-color: black;
+    color: #ffffff;
+ }
+ .btn-2{
+    padding: 0.5em;
+    padding-left: 30px;
+    padding-right: 2.3em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #332f60;
+    color: aliceblue;
+ }
+ .btn-2:hover{
+    background-color: black;
+    color: #ffffff;
+ }
+ .btn-3{
+    margin-bottom: 3em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #47425a;;
+    color: aliceblue;
+ }
+ .btn-3:hover{
+    background-color: rgb(235, 9, 9);
+    color: #ffffff;
+ }
